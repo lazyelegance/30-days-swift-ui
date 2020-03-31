@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06DE1CE02433D8AB009FDC11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE1CDF2433D8AB009FDC11 /* AppDelegate.swift */; };
+		06DE1CE22433D8AB009FDC11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE1CE12433D8AB009FDC11 /* SceneDelegate.swift */; };
+		06DE1CE42433D8AB009FDC11 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE1CE32433D8AB009FDC11 /* ContentView.swift */; };
+		06DE1CE62433D8AC009FDC11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DE1CE52433D8AC009FDC11 /* Assets.xcassets */; };
+		06DE1CE92433D8AC009FDC11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DE1CE82433D8AC009FDC11 /* Preview Assets.xcassets */; };
+		06DE1CEC2433D8AC009FDC11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DE1CEA2433D8AC009FDC11 /* LaunchScreen.storyboard */; };
+		06DE1CF72433D8AD009FDC11 /* Text_Field_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE1CF62433D8AD009FDC11 /* Text_Field_AnimationTests.swift */; };
+		06DE1D022433D8AD009FDC11 /* Text_Field_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DE1D012433D8AD009FDC11 /* Text_Field_AnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06DE1CF32433D8AD009FDC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06DE1CD42433D8AB009FDC11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DE1CDB2433D8AB009FDC11;
+			remoteInfo = "Text Field Animation";
+		};
+		06DE1CFE2433D8AD009FDC11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06DE1CD42433D8AB009FDC11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06DE1CDB2433D8AB009FDC11;
+			remoteInfo = "Text Field Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06DE1CDC2433D8AB009FDC11 /* Text Field Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Field Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DE1CDF2433D8AB009FDC11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06DE1CE12433D8AB009FDC11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06DE1CE32433D8AB009FDC11 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		06DE1CE52433D8AC009FDC11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06DE1CE82433D8AC009FDC11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06DE1CEB2433D8AC009FDC11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06DE1CED2433D8AC009FDC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DE1CF22433D8AD009FDC11 /* Text Field AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text Field AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DE1CF62433D8AD009FDC11 /* Text_Field_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Field_AnimationTests.swift; sourceTree = "<group>"; };
+		06DE1CF82433D8AD009FDC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DE1CFD2433D8AD009FDC11 /* Text Field AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text Field AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06DE1D012433D8AD009FDC11 /* Text_Field_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Field_AnimationUITests.swift; sourceTree = "<group>"; };
+		06DE1D032433D8AD009FDC11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06DE1CD92433D8AB009FDC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DE1CEF2433D8AD009FDC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DE1CFA2433D8AD009FDC11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06DE1CD32433D8AB009FDC11 = {
+			isa = PBXGroup;
+			children = (
+				06DE1CDE2433D8AB009FDC11 /* Text Field Animation */,
+				06DE1CF52433D8AD009FDC11 /* Text Field AnimationTests */,
+				06DE1D002433D8AD009FDC11 /* Text Field AnimationUITests */,
+				06DE1CDD2433D8AB009FDC11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06DE1CDD2433D8AB009FDC11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06DE1CDC2433D8AB009FDC11 /* Text Field Animation.app */,
+				06DE1CF22433D8AD009FDC11 /* Text Field AnimationTests.xctest */,
+				06DE1CFD2433D8AD009FDC11 /* Text Field AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06DE1CDE2433D8AB009FDC11 /* Text Field Animation */ = {
+			isa = PBXGroup;
+			children = (
+				06DE1CDF2433D8AB009FDC11 /* AppDelegate.swift */,
+				06DE1CE12433D8AB009FDC11 /* SceneDelegate.swift */,
+				06DE1CE32433D8AB009FDC11 /* ContentView.swift */,
+				06DE1CE52433D8AC009FDC11 /* Assets.xcassets */,
+				06DE1CEA2433D8AC009FDC11 /* LaunchScreen.storyboard */,
+				06DE1CED2433D8AC009FDC11 /* Info.plist */,
+				06DE1CE72433D8AC009FDC11 /* Preview Content */,
+			);
+			path = "Text Field Animation";
+			sourceTree = "<group>";
+		};
+		06DE1CE72433D8AC009FDC11 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				06DE1CE82433D8AC009FDC11 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06DE1CF52433D8AD009FDC11 /* Text Field AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				06DE1CF62433D8AD009FDC11 /* Text_Field_AnimationTests.swift */,
+				06DE1CF82433D8AD009FDC11 /* Info.plist */,
+			);
+			path = "Text Field AnimationTests";
+			sourceTree = "<group>";
+		};
+		06DE1D002433D8AD009FDC11 /* Text Field AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06DE1D012433D8AD009FDC11 /* Text_Field_AnimationUITests.swift */,
+				06DE1D032433D8AD009FDC11 /* Info.plist */,
+			);
+			path = "Text Field AnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06DE1CDB2433D8AB009FDC11 /* Text Field Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DE1D062433D8AD009FDC11 /* Build configuration list for PBXNativeTarget "Text Field Animation" */;
+			buildPhases = (
+				06DE1CD82433D8AB009FDC11 /* Sources */,
+				06DE1CD92433D8AB009FDC11 /* Frameworks */,
+				06DE1CDA2433D8AB009FDC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Text Field Animation";
+			productName = "Text Field Animation";
+			productReference = 06DE1CDC2433D8AB009FDC11 /* Text Field Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06DE1CF12433D8AD009FDC11 /* Text Field AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DE1D092433D8AD009FDC11 /* Build configuration list for PBXNativeTarget "Text Field AnimationTests" */;
+			buildPhases = (
+				06DE1CEE2433D8AD009FDC11 /* Sources */,
+				06DE1CEF2433D8AD009FDC11 /* Frameworks */,
+				06DE1CF02433D8AD009FDC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06DE1CF42433D8AD009FDC11 /* PBXTargetDependency */,
+			);
+			name = "Text Field AnimationTests";
+			productName = "Text Field AnimationTests";
+			productReference = 06DE1CF22433D8AD009FDC11 /* Text Field AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06DE1CFC2433D8AD009FDC11 /* Text Field AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06DE1D0C2433D8AD009FDC11 /* Build configuration list for PBXNativeTarget "Text Field AnimationUITests" */;
+			buildPhases = (
+				06DE1CF92433D8AD009FDC11 /* Sources */,
+				06DE1CFA2433D8AD009FDC11 /* Frameworks */,
+				06DE1CFB2433D8AD009FDC11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06DE1CFF2433D8AD009FDC11 /* PBXTargetDependency */,
+			);
+			name = "Text Field AnimationUITests";
+			productName = "Text Field AnimationUITests";
+			productReference = 06DE1CFD2433D8AD009FDC11 /* Text Field AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06DE1CD42433D8AB009FDC11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ezra Bathini";
+				TargetAttributes = {
+					06DE1CDB2433D8AB009FDC11 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					06DE1CF12433D8AD009FDC11 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 06DE1CDB2433D8AB009FDC11;
+					};
+					06DE1CFC2433D8AD009FDC11 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 06DE1CDB2433D8AB009FDC11;
+					};
+				};
+			};
+			buildConfigurationList = 06DE1CD72433D8AB009FDC11 /* Build configuration list for PBXProject "Text Field Animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06DE1CD32433D8AB009FDC11;
+			productRefGroup = 06DE1CDD2433D8AB009FDC11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06DE1CDB2433D8AB009FDC11 /* Text Field Animation */,
+				06DE1CF12433D8AD009FDC11 /* Text Field AnimationTests */,
+				06DE1CFC2433D8AD009FDC11 /* Text Field AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06DE1CDA2433D8AB009FDC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DE1CEC2433D8AC009FDC11 /* LaunchScreen.storyboard in Resources */,
+				06DE1CE92433D8AC009FDC11 /* Preview Assets.xcassets in Resources */,
+				06DE1CE62433D8AC009FDC11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DE1CF02433D8AD009FDC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DE1CFB2433D8AD009FDC11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06DE1CD82433D8AB009FDC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DE1CE02433D8AB009FDC11 /* AppDelegate.swift in Sources */,
+				06DE1CE22433D8AB009FDC11 /* SceneDelegate.swift in Sources */,
+				06DE1CE42433D8AB009FDC11 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DE1CEE2433D8AD009FDC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DE1CF72433D8AD009FDC11 /* Text_Field_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06DE1CF92433D8AD009FDC11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DE1D022433D8AD009FDC11 /* Text_Field_AnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06DE1CF42433D8AD009FDC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06DE1CDB2433D8AB009FDC11 /* Text Field Animation */;
+			targetProxy = 06DE1CF32433D8AD009FDC11 /* PBXContainerItemProxy */;
+		};
+		06DE1CFF2433D8AD009FDC11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06DE1CDB2433D8AB009FDC11 /* Text Field Animation */;
+			targetProxy = 06DE1CFE2433D8AD009FDC11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06DE1CEA2433D8AC009FDC11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06DE1CEB2433D8AC009FDC11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06DE1D042433D8AD009FDC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06DE1D052433D8AD009FDC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06DE1D072433D8AD009FDC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Text Field Animation/Preview Content\"";
+				DEVELOPMENT_TEAM = 9M5NZ53QAQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Text Field Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ezrabathini.Text-Field-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06DE1D082433D8AD009FDC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Text Field Animation/Preview Content\"";
+				DEVELOPMENT_TEAM = 9M5NZ53QAQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Text Field Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ezrabathini.Text-Field-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		06DE1D0A2433D8AD009FDC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M5NZ53QAQ;
+				INFOPLIST_FILE = "Text Field AnimationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ezrabathini.Text-Field-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Field Animation.app/Text Field Animation";
+			};
+			name = Debug;
+		};
+		06DE1D0B2433D8AD009FDC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M5NZ53QAQ;
+				INFOPLIST_FILE = "Text Field AnimationTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ezrabathini.Text-Field-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Field Animation.app/Text Field Animation";
+			};
+			name = Release;
+		};
+		06DE1D0D2433D8AD009FDC11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M5NZ53QAQ;
+				INFOPLIST_FILE = "Text Field AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ezrabathini.Text-Field-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Text Field Animation";
+			};
+			name = Debug;
+		};
+		06DE1D0E2433D8AD009FDC11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M5NZ53QAQ;
+				INFOPLIST_FILE = "Text Field AnimationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.ezrabathini.Text-Field-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Text Field Animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06DE1CD72433D8AB009FDC11 /* Build configuration list for PBXProject "Text Field Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DE1D042433D8AD009FDC11 /* Debug */,
+				06DE1D052433D8AD009FDC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DE1D062433D8AD009FDC11 /* Build configuration list for PBXNativeTarget "Text Field Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DE1D072433D8AD009FDC11 /* Debug */,
+				06DE1D082433D8AD009FDC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DE1D092433D8AD009FDC11 /* Build configuration list for PBXNativeTarget "Text Field AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DE1D0A2433D8AD009FDC11 /* Debug */,
+				06DE1D0B2433D8AD009FDC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06DE1D0C2433D8AD009FDC11 /* Build configuration list for PBXNativeTarget "Text Field AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DE1D0D2433D8AD009FDC11 /* Debug */,
+				06DE1D0E2433D8AD009FDC11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06DE1CD42433D8AB009FDC11 /* Project object */;
+}
