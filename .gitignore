@@ -60,3 +60,6 @@ DerivedData/
 
 ### Xcode Patch ###
 **/xcshareddata/WorkspaceSettings.xcsettings
+
+### Keys
+keys.plist
